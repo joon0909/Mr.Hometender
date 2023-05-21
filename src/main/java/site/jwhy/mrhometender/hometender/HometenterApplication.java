@@ -1,8 +1,9 @@
-package site.jwhy.mrhometender.hometenter;
+package site.jwhy.mrhometender.hometender;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+@MapperScan(basePackages = {"site.jwhy.mrhometender.hometender.mapper"})
 @SpringBootApplication
 public class HometenterApplication {
 

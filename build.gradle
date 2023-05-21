@@ -35,7 +35,7 @@ tasks.named('test') {
 }
 
 //+ react build
-def frontendDir = "$projectDir/src/main/momm-front"
+def frontendDir = "$projectDir/src/main/hometender-front"
 
 sourceSets {
     main {
